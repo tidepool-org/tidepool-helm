@@ -1,8 +1,18 @@
 apiVersion: v1
 entries:
+  tidebot:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-01-21T21:35:28.670009-08:00"
+    description: A Helm chart for Tidebot
+    digest: cd75ed437e0595ce55b682cc9329cb6067b2f8c398888de7aa71ef250c77e766
+    name: tidebot
+    urls:
+    - tidebot-0.1.0.tgz
+    version: 0.1.0
   tidepool:
   - apiVersion: v1
-    created: "2020-01-21T21:25:48.953847-08:00"
+    created: "2020-01-21T21:35:28.697448-08:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -22,7 +32,7 @@ entries:
     - tidepool-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v1
-    created: "2020-01-21T21:25:48.940813-08:00"
+    created: "2020-01-21T21:35:28.684132-08:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -41,4 +51,4 @@ entries:
     urls:
     - tidepool-0.1.7.tgz
     version: 0.1.7
-generated: "2020-01-21T21:25:48.925219-08:00"
+generated: "2020-01-21T21:35:28.669391-08:00"
