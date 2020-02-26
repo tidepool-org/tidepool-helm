@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   mailhog:
   - apiVersion: v2
-    created: "2020-02-25T16:47:14.179357-08:00"
+    created: "2020-02-25T21:56:46.747801-08:00"
     description: A Helm chart for Mailhog
     digest: b520132d2698d670c0bd208b4bfd16c6065cdb5ed60c9ebbc58545f951aafb9a
     icon: https://www.tidepool.org/static/media/tidepool-t-logo.41feef82.png
@@ -16,7 +16,7 @@ entries:
   tidebot:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-02-25T16:47:14.181053-08:00"
+    created: "2020-02-25T21:56:46.748971-08:00"
     description: A Helm chart for Tidebot
     digest: 11e8a8960fa173a3a5d9a2e9ba48215a86d1677a707812b0dd06cae36ed2e19a
     name: tidebot
@@ -25,7 +25,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-02-25T16:47:14.180348-08:00"
+    created: "2020-02-25T21:56:46.748539-08:00"
     description: A Helm chart for Tidebot
     digest: cd75ed437e0595ce55b682cc9329cb6067b2f8c398888de7aa71ef250c77e766
     name: tidebot
@@ -34,7 +34,25 @@ entries:
     version: 0.1.0
   tidepool:
   - apiVersion: v2
-    created: "2020-02-25T16:47:14.305897-08:00"
+    created: "2020-02-25T21:56:46.884672-08:00"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 6.1.2
+    description: A Helm chart for Tidepool
+    digest: e00e65d2bf853db3c0ebb07684aaad59c45b88e5b2c8369fb4b822970a5a5aef
+    home: https://github.com/tidepool-org/development/charts
+    icon: https://www.tidepool.org/static/media/tidepool-t-logo.41feef82.png
+    maintainers:
+    - email: derrick@tidepool.org
+      name: Derrick Burns
+    name: tidepool
+    urls:
+    - tidepool-0.3.5.tgz
+    version: 0.3.5
+  - apiVersion: v2
+    created: "2020-02-25T21:56:46.875237-08:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -52,7 +70,7 @@ entries:
     - tidepool-0.3.4.tgz
     version: 0.3.4
   - apiVersion: v2
-    created: "2020-02-25T16:47:14.298196-08:00"
+    created: "2020-02-25T21:56:46.864299-08:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -69,7 +87,7 @@ entries:
     - tidepool-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v2
-    created: "2020-02-25T16:47:14.289218-08:00"
+    created: "2020-02-25T21:56:46.855202-08:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -86,7 +104,7 @@ entries:
     - tidepool-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
-    created: "2020-02-25T16:47:14.274479-08:00"
+    created: "2020-02-25T21:56:46.842312-08:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -103,7 +121,7 @@ entries:
     - tidepool-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
-    created: "2020-02-25T16:47:14.261449-08:00"
+    created: "2020-02-25T21:56:46.830012-08:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -120,7 +138,7 @@ entries:
     - tidepool-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2020-02-25T16:47:14.248904-08:00"
+    created: "2020-02-25T21:56:46.818231-08:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -137,7 +155,7 @@ entries:
     - tidepool-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
-    created: "2020-02-25T16:47:14.235464-08:00"
+    created: "2020-02-25T21:56:46.805964-08:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -158,7 +176,7 @@ entries:
     - tidepool-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2020-02-25T16:47:14.22158-08:00"
+    created: "2020-02-25T21:56:46.789978-08:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -179,7 +197,7 @@ entries:
     - tidepool-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2020-02-25T16:47:14.207464-08:00"
+    created: "2020-02-25T21:56:46.776322-08:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -199,7 +217,7 @@ entries:
     - tidepool-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v1
-    created: "2020-02-25T16:47:14.194614-08:00"
+    created: "2020-02-25T21:56:46.763377-08:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -218,4 +236,4 @@ entries:
     urls:
     - tidepool-0.1.7.tgz
     version: 0.1.7
-generated: "2020-02-25T16:47:14.177953-08:00"
+generated: "2020-02-25T21:56:46.746932-08:00"
