@@ -1,8 +1,31 @@
 apiVersion: v1
 entries:
+  external-dns:
+  - apiVersion: v1
+    appVersion: 0.7.0
+    created: "2020-03-15T22:29:03.207828-07:00"
+    description: ExternalDNS is a Kubernetes addon that configures public DNS servers
+      with information about exposed Kubernetes services to make them discoverable.
+    digest: 02416f4c04df37bbe5ca1cbf53cfe8d82d260b0921954b44934736fb5e2e0b02
+    home: https://github.com/kubernetes-sigs/external-dns
+    icon: https://bitnami.com/assets/stacks/external-dns/img/external-dns-stack-110x117.png
+    keywords:
+    - external-dns
+    - network
+    - dns
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: external-dns
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns
+    - https://github.com/bitnami/bitnami-docker-external-dns
+    urls:
+    - external-dns-2.20.6.tgz
+    version: 2.20.6
   mailhog:
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.484691-07:00"
+    created: "2020-03-15T22:29:03.208466-07:00"
     description: A Helm chart for Mailhog
     digest: b520132d2698d670c0bd208b4bfd16c6065cdb5ed60c9ebbc58545f951aafb9a
     icon: https://www.tidepool.org/static/media/tidepool-t-logo.41feef82.png
@@ -16,7 +39,7 @@ entries:
   tidebot:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-12T17:16:21.48671-07:00"
+    created: "2020-03-15T22:29:03.21055-07:00"
     description: A Helm chart for Tidebot
     digest: 11e8a8960fa173a3a5d9a2e9ba48215a86d1677a707812b0dd06cae36ed2e19a
     name: tidebot
@@ -25,7 +48,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-12T17:16:21.485861-07:00"
+    created: "2020-03-15T22:29:03.209477-07:00"
     description: A Helm chart for Tidebot
     digest: cd75ed437e0595ce55b682cc9329cb6067b2f8c398888de7aa71ef250c77e766
     name: tidebot
@@ -34,7 +57,7 @@ entries:
     version: 0.1.0
   tidepool:
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.69035-07:00"
+    created: "2020-03-15T22:29:03.391364-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -52,7 +75,7 @@ entries:
     - tidepool-0.3.7.tgz
     version: 0.3.7
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.680186-07:00"
+    created: "2020-03-15T22:29:03.382686-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -70,7 +93,7 @@ entries:
     - tidepool-0.3.6.tgz
     version: 0.3.6
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.667974-07:00"
+    created: "2020-03-15T22:29:03.37062-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -88,7 +111,7 @@ entries:
     - tidepool-0.3.5.tgz
     version: 0.3.5
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.656983-07:00"
+    created: "2020-03-15T22:29:03.359574-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -106,7 +129,7 @@ entries:
     - tidepool-0.3.4.tgz
     version: 0.3.4
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.645576-07:00"
+    created: "2020-03-15T22:29:03.346976-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -123,7 +146,7 @@ entries:
     - tidepool-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.633785-07:00"
+    created: "2020-03-15T22:29:03.337671-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -140,7 +163,7 @@ entries:
     - tidepool-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.616424-07:00"
+    created: "2020-03-15T22:29:03.324094-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -157,7 +180,7 @@ entries:
     - tidepool-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.600302-07:00"
+    created: "2020-03-15T22:29:03.3106-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -174,7 +197,7 @@ entries:
     - tidepool-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.581844-07:00"
+    created: "2020-03-15T22:29:03.295472-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -191,7 +214,7 @@ entries:
     - tidepool-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.565148-07:00"
+    created: "2020-03-15T22:29:03.280267-07:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -212,7 +235,7 @@ entries:
     - tidepool-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2020-03-12T17:16:21.544512-07:00"
+    created: "2020-03-15T22:29:03.26131-07:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -233,7 +256,7 @@ entries:
     - tidepool-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2020-03-12T17:16:21.523435-07:00"
+    created: "2020-03-15T22:29:03.241742-07:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -253,7 +276,7 @@ entries:
     - tidepool-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v1
-    created: "2020-03-12T17:16:21.506327-07:00"
+    created: "2020-03-15T22:29:03.226785-07:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -272,4 +295,4 @@ entries:
     urls:
     - tidepool-0.1.7.tgz
     version: 0.1.7
-generated: "2020-03-12T17:16:21.483505-07:00"
+generated: "2020-03-15T22:29:03.204063-07:00"
