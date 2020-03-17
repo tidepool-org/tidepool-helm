@@ -1,5 +1,5 @@
 #!/bin/bash
-helm package ../development/charts/slack-tidebot
+helm package ../../../../../slack-tidebot/deploy
 helm repo index .
 git add .
 git commit -m "$*"
