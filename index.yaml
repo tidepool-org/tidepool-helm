@@ -2,7 +2,18 @@ apiVersion: v1
 entries:
   dremio:
   - apiVersion: v1
-    created: "2020-06-24T17:55:52.398039-07:00"
+    created: "2020-06-24T18:12:24.030982-07:00"
+    digest: d503d520ba0b0d4496de40877672b941c507d5ef2377123a39959ba4cc8696e4
+    home: https://www.dremio.com/
+    keywords:
+    - dremio
+    - data
+    name: dremio
+    urls:
+    - dremio-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v1
+    created: "2020-06-24T18:12:24.030026-07:00"
     digest: 16b873af1cab1bd60080d686b08c31a3c2d775da1e0f9563978c46c6e0d24897
     home: https://www.dremio.com/
     keywords:
@@ -13,7 +24,7 @@ entries:
     - dremio-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v1
-    created: "2020-06-24T17:55:52.396972-07:00"
+    created: "2020-06-24T18:12:24.029131-07:00"
     digest: b1e92de7b5260b4fa15f0b33714d5775ca5b555b4f858d921f0b804d43b88ed7
     home: https://www.dremio.com/
     keywords:
@@ -24,7 +35,7 @@ entries:
     - dremio-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v1
-    created: "2020-06-24T17:55:52.395069-07:00"
+    created: "2020-06-24T18:12:24.028228-07:00"
     digest: 0d3908a6d7df5de9a0a5f6ceb5d0b0881331efa59934ac0627f63b4d92f91a80
     home: https://www.dremio.com/
     keywords:
@@ -35,7 +46,7 @@ entries:
     - dremio-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
-    created: "2020-06-24T17:55:52.394098-07:00"
+    created: "2020-06-24T18:12:24.02739-07:00"
     digest: b3a379f6b82b406770c276b3248dcfff86448ed1de0a17ec18bfad8bd21148ef
     home: https://www.dremio.com/
     keywords:
@@ -46,7 +57,7 @@ entries:
     - dremio-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2020-06-24T17:55:52.393203-07:00"
+    created: "2020-06-24T18:12:24.026527-07:00"
     digest: f4b16ea3782fc6b79700811bb1e9756cdfc543f0479607c4d0899815678e911c
     home: https://www.dremio.com/
     keywords:
@@ -57,7 +68,7 @@ entries:
     - dremio-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2020-06-24T17:55:52.392336-07:00"
+    created: "2020-06-24T18:12:24.025675-07:00"
     digest: dee188fd7adad3da622cbc241973a181f8b0136565d71a5b4b37b9cf1e894294
     home: https://www.dremio.com/
     keywords:
@@ -70,7 +81,7 @@ entries:
   external-dns:
   - apiVersion: v1
     appVersion: 0.7.0
-    created: "2020-06-24T17:55:52.40027-07:00"
+    created: "2020-06-24T18:12:24.032901-07:00"
     description: ExternalDNS is a Kubernetes addon that configures public DNS servers
       with information about exposed Kubernetes services to make them discoverable.
     digest: 02416f4c04df37bbe5ca1cbf53cfe8d82d260b0921954b44934736fb5e2e0b02
@@ -92,7 +103,7 @@ entries:
     version: 2.20.6
   mailhog:
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.400589-07:00"
+    created: "2020-06-24T18:12:24.033165-07:00"
     description: A Helm chart for Mailhog
     digest: b520132d2698d670c0bd208b4bfd16c6065cdb5ed60c9ebbc58545f951aafb9a
     icon: https://www.tidepool.org/static/media/tidepool-t-logo.41feef82.png
@@ -106,7 +117,7 @@ entries:
   tidebot:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-24T17:55:52.40351-07:00"
+    created: "2020-06-24T18:12:24.035579-07:00"
     description: A Helm chart for Tidebot
     digest: 5006ccc4ba81fc3a947c67b78b671c91a9b28e667ac6c4cca958f46d3931f8a9
     name: tidebot
@@ -115,7 +126,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-24T17:55:52.402896-07:00"
+    created: "2020-06-24T18:12:24.035138-07:00"
     description: A Helm chart for Tidebot
     digest: a95d594bf72792fef8882320cbb442bdb658b316283c4dfa37007d1e9654ee5e
     name: tidebot
@@ -124,7 +135,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-24T17:55:52.401987-07:00"
+    created: "2020-06-24T18:12:24.034667-07:00"
     description: A Helm chart for Tidebot
     digest: 11e8a8960fa173a3a5d9a2e9ba48215a86d1677a707812b0dd06cae36ed2e19a
     name: tidebot
@@ -133,7 +144,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-06-24T17:55:52.401156-07:00"
+    created: "2020-06-24T18:12:24.03402-07:00"
     description: A Helm chart for Tidebot
     digest: cd75ed437e0595ce55b682cc9329cb6067b2f8c398888de7aa71ef250c77e766
     name: tidebot
@@ -142,7 +153,7 @@ entries:
     version: 0.1.0
   tidepool:
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.944429-07:00"
+    created: "2020-06-24T18:12:24.477684-07:00"
     description: A Helm chart for Tidepool
     digest: a753c5c1c5e4c91023bb27658bd902a1cb7bf842f1f9bb54a1d42e8181a89136
     home: https://github.com/tidepool-org/development/charts
@@ -156,7 +167,7 @@ entries:
     - tidepool-0.7.1.tgz
     version: 0.7.1
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.88121-07:00"
+    created: "2020-06-24T18:12:24.435133-07:00"
     description: A Helm chart for Tidepool
     digest: 3e0e4d49fb81f00d2f4a14841bf619d0ea88e4572e5e268e67211ae07a18e7ee
     home: https://github.com/tidepool-org/development/charts
@@ -170,7 +181,7 @@ entries:
     - tidepool-0.6.20.tgz
     version: 0.6.20
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.867229-07:00"
+    created: "2020-06-24T18:12:24.424932-07:00"
     description: A Helm chart for Tidepool
     digest: 87f5db7de45949b9521296bb98364ff9412c42f29f5db8fe6b65ed485f8b202e
     home: https://github.com/tidepool-org/development/charts
@@ -184,7 +195,7 @@ entries:
     - tidepool-0.6.19.tgz
     version: 0.6.19
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.859214-07:00"
+    created: "2020-06-24T18:12:24.419413-07:00"
     description: A Helm chart for Tidepool
     digest: e3817b7d93d4e125d6f9a93146bc8f5bb36c3f17dbe85fb0412ed9abb484a082
     home: https://github.com/tidepool-org/development/charts
@@ -198,7 +209,7 @@ entries:
     - tidepool-0.6.18.tgz
     version: 0.6.18
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.85337-07:00"
+    created: "2020-06-24T18:12:24.41402-07:00"
     description: A Helm chart for Tidepool
     digest: 10bb231ca1e83b3691a82afadd743c85058421b9f61dd04d3ceac60f08979a18
     home: https://github.com/tidepool-org/development/charts
@@ -212,7 +223,7 @@ entries:
     - tidepool-0.6.17.tgz
     version: 0.6.17
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.846203-07:00"
+    created: "2020-06-24T18:12:24.408993-07:00"
     description: A Helm chart for Tidepool
     digest: aae5165fbebedf3eb7f244139bcd2e5b734590544e8960e6f331b689cdc747da
     home: https://github.com/tidepool-org/development/charts
@@ -226,7 +237,7 @@ entries:
     - tidepool-0.6.16.tgz
     version: 0.6.16
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.839723-07:00"
+    created: "2020-06-24T18:12:24.403434-07:00"
     description: A Helm chart for Tidepool
     digest: 868d4acc4e82b33c0f5dd6687b4185e37152590ac09ca9fe5b20dbae1051167e
     home: https://github.com/tidepool-org/development/charts
@@ -240,7 +251,7 @@ entries:
     - tidepool-0.6.15.tgz
     version: 0.6.15
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.833617-07:00"
+    created: "2020-06-24T18:12:24.397909-07:00"
     description: A Helm chart for Tidepool
     digest: fc456b7ef2004dea53ee34c573f256f8db721debc61160eac75361b885841440
     home: https://github.com/tidepool-org/development/charts
@@ -254,7 +265,7 @@ entries:
     - tidepool-0.6.14.tgz
     version: 0.6.14
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.826231-07:00"
+    created: "2020-06-24T18:12:24.393036-07:00"
     description: A Helm chart for Tidepool
     digest: 8ff7e1e6fce7f59e9fa2cfc0564cb3c5d7ddb8e105a7ad79196bbfcf1420faa7
     home: https://github.com/tidepool-org/development/charts
@@ -268,7 +279,7 @@ entries:
     - tidepool-0.6.13.tgz
     version: 0.6.13
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.819029-07:00"
+    created: "2020-06-24T18:12:24.387526-07:00"
     description: A Helm chart for Tidepool
     digest: 1238360b1a6a529e32d6424117aeaa0656c134d2ec6740de5a43be4a89d059f1
     home: https://github.com/tidepool-org/development/charts
@@ -282,7 +293,7 @@ entries:
     - tidepool-0.6.12.tgz
     version: 0.6.12
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.811881-07:00"
+    created: "2020-06-24T18:12:24.382043-07:00"
     description: A Helm chart for Tidepool
     digest: 4a3b7989fa61bc5b72b8ee99b2a3a951684f8a2c67a735ea8c6bdacd26fba970
     home: https://github.com/tidepool-org/development/charts
@@ -296,7 +307,7 @@ entries:
     - tidepool-0.6.11.tgz
     version: 0.6.11
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.804239-07:00"
+    created: "2020-06-24T18:12:24.377139-07:00"
     description: A Helm chart for Tidepool
     digest: 4b4cc256bd3af8c9dc9dc83e6979134fc9362805375730591b446b360f2f0f4a
     home: https://github.com/tidepool-org/development/charts
@@ -310,7 +321,7 @@ entries:
     - tidepool-0.6.10.tgz
     version: 0.6.10
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.935763-07:00"
+    created: "2020-06-24T18:12:24.472525-07:00"
     description: A Helm chart for Tidepool
     digest: db41e7fe0ddfae4bfa2f737d20ae54f5cb6e5f6c52631a4ebae054037e0a8b30
     home: https://github.com/tidepool-org/development/charts
@@ -324,7 +335,7 @@ entries:
     - tidepool-0.6.9.tgz
     version: 0.6.9
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.92782-07:00"
+    created: "2020-06-24T18:12:24.466904-07:00"
     description: A Helm chart for Tidepool
     digest: 8a0016a4721eb560b6b8cf5596536fe5780e8195a78c6828074e795429ba72a2
     home: https://github.com/tidepool-org/development/charts
@@ -338,7 +349,7 @@ entries:
     - tidepool-0.6.8.tgz
     version: 0.6.8
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.92085-07:00"
+    created: "2020-06-24T18:12:24.461731-07:00"
     description: A Helm chart for Tidepool
     digest: 6263e435cf394274ba7bfe530cda74fcc519867203b52b642b0da8a4cee30abd
     home: https://github.com/tidepool-org/development/charts
@@ -352,7 +363,7 @@ entries:
     - tidepool-0.6.7.tgz
     version: 0.6.7
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.913476-07:00"
+    created: "2020-06-24T18:12:24.456614-07:00"
     description: A Helm chart for Tidepool
     digest: 9257e83dec1d239e4b3caf3669186b2f8e880fae79a85f373a2fe5d9c488a4e9
     home: https://github.com/tidepool-org/development/charts
@@ -366,7 +377,7 @@ entries:
     - tidepool-0.6.6.tgz
     version: 0.6.6
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.905844-07:00"
+    created: "2020-06-24T18:12:24.451126-07:00"
     description: A Helm chart for Tidepool
     digest: c2d65dc2c4e981c22e7beb8d1ee1c36358ee3c5ba0ced751102dffcf29d9516d
     home: https://github.com/tidepool-org/development/charts
@@ -380,7 +391,7 @@ entries:
     - tidepool-0.6.5.tgz
     version: 0.6.5
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.898752-07:00"
+    created: "2020-06-24T18:12:24.446214-07:00"
     description: A Helm chart for Tidepool
     digest: c19a836be43b0602a04c7e05a5fbd1f2c3f705bf92f3c9060e5cf30e3a9dd4b3
     home: https://github.com/tidepool-org/development/charts
@@ -394,7 +405,7 @@ entries:
     - tidepool-0.6.4.tgz
     version: 0.6.4
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.888374-07:00"
+    created: "2020-06-24T18:12:24.440647-07:00"
     description: A Helm chart for Tidepool
     digest: 5178d9e7e3bb2c8eb035e76ba05cdd49bb6af10b9116fa67218c339dbf225dce
     home: https://github.com/tidepool-org/development/charts
@@ -408,7 +419,7 @@ entries:
     - tidepool-0.6.3.tgz
     version: 0.6.3
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.874614-07:00"
+    created: "2020-06-24T18:12:24.429835-07:00"
     description: A Helm chart for Tidepool
     digest: 362496f848b7b3d92c458bc3346c737ec8595ac980951576ae641aeb17cf251e
     home: https://github.com/tidepool-org/development/charts
@@ -422,7 +433,7 @@ entries:
     - tidepool-0.6.2.tgz
     version: 0.6.2
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.797709-07:00"
+    created: "2020-06-24T18:12:24.371419-07:00"
     description: A Helm chart for Tidepool
     digest: e29ddc42c40747bbf011a7aea7d068110621eef5f4d041eca1d974809692d7ef
     home: https://github.com/tidepool-org/development/charts
@@ -436,7 +447,7 @@ entries:
     - tidepool-0.6.1.tgz
     version: 0.6.1
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.791489-07:00"
+    created: "2020-06-24T18:12:24.365984-07:00"
     description: A Helm chart for Tidepool
     digest: c4a3af9375abf0a4105a4b656095ab5a855838f4902d87c09949ca243e3f062c
     home: https://github.com/tidepool-org/development/charts
@@ -450,7 +461,7 @@ entries:
     - tidepool-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.735784-07:00"
+    created: "2020-06-24T18:12:24.325057-07:00"
     description: A Helm chart for Tidepool
     digest: b24fe04e85f7870df3910d3211eb4baa11c6ecf8ed34bdf4806674c48127c6c4
     home: https://github.com/tidepool-org/development/charts
@@ -464,7 +475,7 @@ entries:
     - tidepool-0.5.12.tgz
     version: 0.5.12
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.729539-07:00"
+    created: "2020-06-24T18:12:24.319893-07:00"
     description: A Helm chart for Tidepool
     digest: ab5a52bce55b83ab6a2fa9f97d18f03179d96ff310da92c7a5213c387f0bb971
     home: https://github.com/tidepool-org/development/charts
@@ -478,7 +489,7 @@ entries:
     - tidepool-0.5.11.tgz
     version: 0.5.11
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.722218-07:00"
+    created: "2020-06-24T18:12:24.314181-07:00"
     description: A Helm chart for Tidepool
     digest: 8d789345d8eb9c1fdda0867dbb50e1bae9ac48666ebba599e106a7d3065d9276
     home: https://github.com/tidepool-org/development/charts
@@ -492,7 +503,7 @@ entries:
     - tidepool-0.5.10.tgz
     version: 0.5.10
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.784829-07:00"
+    created: "2020-06-24T18:12:24.361028-07:00"
     description: A Helm chart for Tidepool
     digest: 8ce01a6686730c271ad46ea5eca01e6998d0dcc75398352ae109d03630bd98df
     home: https://github.com/tidepool-org/development/charts
@@ -506,7 +517,7 @@ entries:
     - tidepool-0.5.9.tgz
     version: 0.5.9
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.777928-07:00"
+    created: "2020-06-24T18:12:24.355701-07:00"
     description: A Helm chart for Tidepool
     digest: 952ac8961302e5c3d91366a1d86fe916f731165f9d3224d28ca90f9b0803118f
     home: https://github.com/tidepool-org/development/charts
@@ -520,7 +531,7 @@ entries:
     - tidepool-0.5.8.tgz
     version: 0.5.8
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.771052-07:00"
+    created: "2020-06-24T18:12:24.350435-07:00"
     description: A Helm chart for Tidepool
     digest: 2d48b9182092a75a35d7688d34b7eafc98d7d0ad9f93ff4433ea95c4e86dc1d4
     home: https://github.com/tidepool-org/development/charts
@@ -534,7 +545,7 @@ entries:
     - tidepool-0.5.7.tgz
     version: 0.5.7
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.763642-07:00"
+    created: "2020-06-24T18:12:24.345764-07:00"
     description: A Helm chart for Tidepool
     digest: 38521a4e9ccd270ce2ba5fe8eb1d029a50f34da4d4c2e755b71f037537987102
     home: https://github.com/tidepool-org/development/charts
@@ -548,7 +559,7 @@ entries:
     - tidepool-0.5.6.tgz
     version: 0.5.6
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.755955-07:00"
+    created: "2020-06-24T18:12:24.340519-07:00"
     description: A Helm chart for Tidepool
     digest: 376ffdc5fd88878f6501988d0bff1246e7697eb351e08d0d3f3683865bc04754
     home: https://github.com/tidepool-org/development/charts
@@ -562,7 +573,7 @@ entries:
     - tidepool-0.5.5.tgz
     version: 0.5.5
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.749469-07:00"
+    created: "2020-06-24T18:12:24.335218-07:00"
     description: A Helm chart for Tidepool
     digest: 67596418dc6a231e9cbaa1283c37e4f0b45b2d961fdf4606aec48a0ef3ba8ed7
     home: https://github.com/tidepool-org/development/charts
@@ -576,7 +587,7 @@ entries:
     - tidepool-0.5.4.tgz
     version: 0.5.4
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.742785-07:00"
+    created: "2020-06-24T18:12:24.330542-07:00"
     description: A Helm chart for Tidepool
     digest: 7e80a157510355cf7a9f5433d82f9d7544a8bbbbf202f8225f71b6a39fe0268f
     home: https://github.com/tidepool-org/development/charts
@@ -590,7 +601,7 @@ entries:
     - tidepool-0.5.2.tgz
     version: 0.5.2
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.71438-07:00"
+    created: "2020-06-24T18:12:24.308701-07:00"
     description: A Helm chart for Tidepool
     digest: c54ff379ffe8082442a4f87fcf51a852d698c393d1aefb62105700b0759022a3
     home: https://github.com/tidepool-org/development/charts
@@ -604,7 +615,7 @@ entries:
     - tidepool-0.5.1.tgz
     version: 0.5.1
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.663546-07:00"
+    created: "2020-06-24T18:12:24.269784-07:00"
     description: A Helm chart for Tidepool
     digest: 9cfe8cfe0321d01654b4a5713b5dc5107e045e65d41660920607fc18e1a0417d
     home: https://github.com/tidepool-org/development/charts
@@ -618,7 +629,7 @@ entries:
     - tidepool-0.4.24.tgz
     version: 0.4.24
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.658333-07:00"
+    created: "2020-06-24T18:12:24.264806-07:00"
     description: A Helm chart for Tidepool
     digest: 79275771f306a40678c5b34ed0557d2ee578047f18ca76d850edb24530600988
     home: https://github.com/tidepool-org/development/charts
@@ -632,7 +643,7 @@ entries:
     - tidepool-0.4.23.tgz
     version: 0.4.23
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.651706-07:00"
+    created: "2020-06-24T18:12:24.259038-07:00"
     description: A Helm chart for Tidepool
     digest: 828828aa110f784c0e80b356fe2f8db9dbd5c53bd2cab1a274660e6974dc3bb7
     home: https://github.com/tidepool-org/development/charts
@@ -646,7 +657,7 @@ entries:
     - tidepool-0.4.22.tgz
     version: 0.4.22
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.645743-07:00"
+    created: "2020-06-24T18:12:24.254294-07:00"
     description: A Helm chart for Tidepool
     digest: e953e84685aa8ed107dd0d0751afafd18b80eac6bba800184f73bc33be1efc8e
     home: https://github.com/tidepool-org/development/charts
@@ -660,7 +671,7 @@ entries:
     - tidepool-0.4.21.tgz
     version: 0.4.21
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.638517-07:00"
+    created: "2020-06-24T18:12:24.249157-07:00"
     description: A Helm chart for Tidepool
     digest: cd4f9817d8e3bef26cbed2fcce8028b0c4ff20a287446140d6e88cd76e051fda
     home: https://github.com/tidepool-org/development/charts
@@ -674,7 +685,7 @@ entries:
     - tidepool-0.4.20.tgz
     version: 0.4.20
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.625702-07:00"
+    created: "2020-06-24T18:12:24.238117-07:00"
     description: A Helm chart for Tidepool
     digest: f2c3cdeeb85d51196460c3436e2e4826f8e7d6c9cc0f3cf66b7340dfff2bc502
     home: https://github.com/tidepool-org/development/charts
@@ -688,7 +699,7 @@ entries:
     - tidepool-0.4.19.tgz
     version: 0.4.19
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.619377-07:00"
+    created: "2020-06-24T18:12:24.232849-07:00"
     description: A Helm chart for Tidepool
     digest: e133eaa53f1b701ea8e8dfcce8b6244373912dfef79e5e0324bf022bb14ca7d0
     home: https://github.com/tidepool-org/development/charts
@@ -702,7 +713,7 @@ entries:
     - tidepool-0.4.18.tgz
     version: 0.4.18
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.612372-07:00"
+    created: "2020-06-24T18:12:24.227458-07:00"
     description: A Helm chart for Tidepool
     digest: 548291ccd2807ac762d8708092a44f3ad93e9c66ee24b8c9c6423d49aa84f850
     home: https://github.com/tidepool-org/development/charts
@@ -716,7 +727,7 @@ entries:
     - tidepool-0.4.17.tgz
     version: 0.4.17
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.606084-07:00"
+    created: "2020-06-24T18:12:24.222859-07:00"
     description: A Helm chart for Tidepool
     digest: b9e898812ee8772878a55c818500ffb44f006b60f391c372a8fb32d3047514d6
     home: https://github.com/tidepool-org/development/charts
@@ -730,7 +741,7 @@ entries:
     - tidepool-0.4.16.tgz
     version: 0.4.16
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.599173-07:00"
+    created: "2020-06-24T18:12:24.217608-07:00"
     description: A Helm chart for Tidepool
     digest: a8dbf131ab1d00b58b64d9eebd9914910a6cfd89162b863abd28bcd1d8a9faaa
     home: https://github.com/tidepool-org/development/charts
@@ -744,7 +755,7 @@ entries:
     - tidepool-0.4.14.tgz
     version: 0.4.14
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.593117-07:00"
+    created: "2020-06-24T18:12:24.212619-07:00"
     description: A Helm chart for Tidepool
     digest: fffb6a65c9f90b98e60fb1fa598be7239bd2ae0527418057a2dd326d5b6f97f6
     home: https://github.com/tidepool-org/development/charts
@@ -758,7 +769,7 @@ entries:
     - tidepool-0.4.13.tgz
     version: 0.4.13
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.587037-07:00"
+    created: "2020-06-24T18:12:24.208077-07:00"
     description: A Helm chart for Tidepool
     digest: 370d8263e2d3c841ce157815ad6f850821632ff1f0944de949b562c42d8f8bb7
     home: https://github.com/tidepool-org/development/charts
@@ -772,7 +783,7 @@ entries:
     - tidepool-0.4.12.tgz
     version: 0.4.12
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.580494-07:00"
+    created: "2020-06-24T18:12:24.20301-07:00"
     description: A Helm chart for Tidepool
     digest: 655c8a13f8aec0e73a2f1958a31eb41bef7a89ee265370a812aa08354ccb0c74
     home: https://github.com/tidepool-org/development/charts
@@ -786,7 +797,7 @@ entries:
     - tidepool-0.4.11.tgz
     version: 0.4.11
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.575409-07:00"
+    created: "2020-06-24T18:12:24.198141-07:00"
     description: A Helm chart for Tidepool
     digest: 8d641616c3e7ca9c2d24c40a509135c4e676e6d1cfecda4bbcf5e57b241f599f
     home: https://github.com/tidepool-org/development/charts
@@ -800,7 +811,7 @@ entries:
     - tidepool-0.4.10.tgz
     version: 0.4.10
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.707333-07:00"
+    created: "2020-06-24T18:12:24.303708-07:00"
     description: A Helm chart for Tidepool
     digest: dba08d5b280d4808008a158574ed840b7535ea3121bcb2b921df60a4b3d49b12
     home: https://github.com/tidepool-org/development/charts
@@ -814,7 +825,7 @@ entries:
     - tidepool-0.4.9.tgz
     version: 0.4.9
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.699696-07:00"
+    created: "2020-06-24T18:12:24.298508-07:00"
     description: A Helm chart for Tidepool
     digest: 06305dd8bc526e6ec4af1cfe7ee6281730ec1c61383799d9e06840ec4f28cfb2
     home: https://github.com/tidepool-org/development/charts
@@ -828,7 +839,7 @@ entries:
     - tidepool-0.4.8.tgz
     version: 0.4.8
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.693654-07:00"
+    created: "2020-06-24T18:12:24.293561-07:00"
     description: A Helm chart for Tidepool
     digest: 6caba8d24d9b156284982e832b5b4e24394a6971f394c905d368717c719cfcf7
     home: https://github.com/tidepool-org/development/charts
@@ -842,7 +853,7 @@ entries:
     - tidepool-0.4.7.tgz
     version: 0.4.7
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.687953-07:00"
+    created: "2020-06-24T18:12:24.289166-07:00"
     description: A Helm chart for Tidepool
     digest: 075ca8f7691c84c15713c3d8e18a9e820703e48694048da008c396738476eabd
     home: https://github.com/tidepool-org/development/charts
@@ -856,7 +867,7 @@ entries:
     - tidepool-0.4.6.tgz
     version: 0.4.6
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.681174-07:00"
+    created: "2020-06-24T18:12:24.284151-07:00"
     description: A Helm chart for Tidepool
     digest: 8b369c41e52497f4f4704fde32c5d2476fdbfcfc265a5e1525acf0bb4ed33818
     home: https://github.com/tidepool-org/development/charts
@@ -870,7 +881,7 @@ entries:
     - tidepool-0.4.5.tgz
     version: 0.4.5
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.676339-07:00"
+    created: "2020-06-24T18:12:24.279749-07:00"
     description: A Helm chart for Tidepool
     digest: aba73ac9542e21a25e1f33a238f10315def2a522e0d5de37a1714b87f676c4a0
     home: https://github.com/tidepool-org/development/charts
@@ -884,7 +895,7 @@ entries:
     - tidepool-0.4.4.tgz
     version: 0.4.4
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.669732-07:00"
+    created: "2020-06-24T18:12:24.274631-07:00"
     description: A Helm chart for Tidepool
     digest: 05067c0149df65a9bf0ad9ba19a51adf142343d5ebb3ca2914b759a28c576544
     home: https://github.com/tidepool-org/development/charts
@@ -898,7 +909,7 @@ entries:
     - tidepool-0.4.3.tgz
     version: 0.4.3
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.632184-07:00"
+    created: "2020-06-24T18:12:24.243893-07:00"
     description: A Helm chart for Tidepool
     digest: f03179f4f69d3d5bcfd402b54eb6a03bde2448bcd42d491d4db9201a2081b59e
     home: https://github.com/tidepool-org/development/charts
@@ -912,7 +923,7 @@ entries:
     - tidepool-0.4.2.tgz
     version: 0.4.2
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.569455-07:00"
+    created: "2020-06-24T18:12:24.193608-07:00"
     description: A Helm chart for Tidepool
     digest: 812aa0b31f689943674698c4ddc93e30d6d5acf3da8b98f751f60ff4f7351330
     home: https://github.com/tidepool-org/development/charts
@@ -926,7 +937,7 @@ entries:
     - tidepool-0.4.1.tgz
     version: 0.4.1
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.563538-07:00"
+    created: "2020-06-24T18:12:24.187474-07:00"
     description: A Helm chart for Tidepool
     digest: fe0360b576aaeaa60cdd8699dd632108b6391c44164de6e351a2c4e9dc2c1f6a
     home: https://github.com/tidepool-org/development/charts
@@ -939,7 +950,7 @@ entries:
     - tidepool-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.557663-07:00"
+    created: "2020-06-24T18:12:24.181646-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -957,7 +968,7 @@ entries:
     - tidepool-0.3.7.tgz
     version: 0.3.7
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.550247-07:00"
+    created: "2020-06-24T18:12:24.174629-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -975,7 +986,7 @@ entries:
     - tidepool-0.3.6.tgz
     version: 0.3.6
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.539327-07:00"
+    created: "2020-06-24T18:12:24.166779-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -993,7 +1004,7 @@ entries:
     - tidepool-0.3.5.tgz
     version: 0.3.5
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.528605-07:00"
+    created: "2020-06-24T18:12:24.15893-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -1011,7 +1022,7 @@ entries:
     - tidepool-0.3.4.tgz
     version: 0.3.4
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.517575-07:00"
+    created: "2020-06-24T18:12:24.151293-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -1028,7 +1039,7 @@ entries:
     - tidepool-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.506536-07:00"
+    created: "2020-06-24T18:12:24.14335-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -1045,7 +1056,7 @@ entries:
     - tidepool-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.494142-07:00"
+    created: "2020-06-24T18:12:24.130643-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -1062,7 +1073,7 @@ entries:
     - tidepool-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.482078-07:00"
+    created: "2020-06-24T18:12:24.117374-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -1079,7 +1090,7 @@ entries:
     - tidepool-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.469664-07:00"
+    created: "2020-06-24T18:12:24.105357-07:00"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -1096,7 +1107,7 @@ entries:
     - tidepool-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.45759-07:00"
+    created: "2020-06-24T18:12:24.092612-07:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -1117,7 +1128,7 @@ entries:
     - tidepool-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2020-06-24T17:55:52.443656-07:00"
+    created: "2020-06-24T18:12:24.078418-07:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -1138,7 +1149,7 @@ entries:
     - tidepool-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2020-06-24T17:55:52.429447-07:00"
+    created: "2020-06-24T18:12:24.063154-07:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -1158,7 +1169,7 @@ entries:
     - tidepool-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v1
-    created: "2020-06-24T17:55:52.416785-07:00"
+    created: "2020-06-24T18:12:24.048817-07:00"
     dependencies:
     - condition: gloo.enabled
       name: gloo
@@ -1177,4 +1188,4 @@ entries:
     urls:
     - tidepool-0.1.7.tgz
     version: 0.1.7
-generated: "2020-06-24T17:55:52.390545-07:00"
+generated: "2020-06-24T18:12:24.023954-07:00"
